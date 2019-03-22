@@ -16,8 +16,8 @@ pub struct Sleep {
 const AWAKE: usize = 0;
 const SLEEPING: usize = 1;
 
-const ROUNDS_UNTIL_SLEEPY: usize = 4;
-const ROUNDS_UNTIL_ASLEEP: usize = 8;
+const ROUNDS_UNTIL_SLEEPY: usize = 32;
+const ROUNDS_UNTIL_ASLEEP: usize = 64;
 
 impl Sleep {
     pub fn new() -> Sleep {
